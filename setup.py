@@ -22,4 +22,5 @@ setup(name='npytypes',
                 'npytypes.quaternion',
                 'npytypes.rational'
                 ],
+      package_data={'npytypes': ['py.typed']},
       ext_modules=ext_modules)
