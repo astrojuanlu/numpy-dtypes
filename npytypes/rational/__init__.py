@@ -9,4 +9,4 @@ if np.__dict__.get('rational') is not None:
     raise RuntimeError('The NumPy package already has a rational type')
 
 np.rational = rational
-np.typeDict['rational'] = np.dtype(rational)
+np.sctypeDict['rational'] = np.dtype(rational)
